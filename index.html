@@ -1,0 +1,102 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<title>Special Program in the Arts</title>
+</head>
+<link rel="shortcut icon" href="logo1.png" />
+<link rel="stylesheet" type="text/css" href="itsknhsspa.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="itsknhsspa.css" rel="stylesheet" type="text/css" />
+
+<body>
+<center><img src="log.jpg" style="width:100%" /></center>
+<ul class="topnav" id="myTopnav">
+  <li><a href="itsknhsspa.html">HOME</a></li>
+  <li><a href="spa1a.html">SPA1A</a></li>
+  <li><a href="spa1b.html">SPA1B</a></li>
+  <li><a href="spa2.html">SPA2</a></li>
+  <li><a href="spa3.html">SPA3</a></li>
+  <li><a href="specialists.html">SPECIALISTS</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+<!-- Slide Show -->
+<section>
+  <center><img class="mySlides" src="waws1.jpg"
+  style="width:100%"></center>
+  <center><img class="mySlides" src="waws2.jpg"
+  style="width:100%"></center>
+  <center><img class="mySlides" src="waws3.jpg"
+  style="width:100%"></center>
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">Special Program in the Arts</h2>
+  <p class="w3-opacity"><i>by Creative Writing Students and Specialists</i></p>
+  <p class="w3-justify">SPA is a DepED curriculum that is design for students who have skills in different field of arts 
+  namely Music (Vocals and Instruments), Dance,Theater Arts, Media Arts, Creative Writing and Visual Arts.
+  The Special Program for the Arts is a nationwide program for students with potentials or talents in the Arts. One pilot
+  school in every region was selected to pilot and implement this program and is now on its tenth year of implementation.
+  MUSIC, The program is designed for musically inclined student with interest in vocal, piano, and string instruments.
+  DANCE, Students develop techniques, movement vocabulary and a deeper understanding of dance as a form of communication
+  and expression. Dance offering include folk, ballet, and jazz. Emphasis is given on the native dances of the region. 
+  VISUAL ARTS, The visual arts helps students develop creativity through paintings, print making, creative crafts, and 
+  designs, computer graphics, ceramics or pottery. MEDIA ARTS, The media arts students have chosen this word to call 
+  themselves for this as used to announce something crier in the community. The media arts members also trained in broadcasting
+  journalism, photography, and videography. THEATER ARTS, There's a great deal of emphasis on group work skills and live performance
+  on spoken text in a number of styles and genres in the theater arts program. Contemporary and classical acting styles/techniques
+  are introduced. CREATIVE WRITING, Students are trained to explore and write their own ideas and experiences. They study and work
+  on all genres like poetry, fiction, nonfiction, etc. The study and use of the local materials like our own Ilocano folklore is given 
+  emphasis. </p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <img src="wow.jpg" alt="Random Name" style="width:50%">
+    <p>Dance and Music</p>
+  </article>
+  <article class="w3-third">
+    <img src="wow2.jpg" alt="Random Name" style="width:50%">
+    <p>Media and Visual</p>
+  </article>
+  <article class="w3-third">
+    <img src="wow3.jpg" alt="Random Name" style="width:50%">
+    <p>Creative and Theater</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-63 w3-center w3-blue w3-medium">
+  <h6>Project web site developed, designed, constructed and maintained by V. Enerio, 2016. Contact.
+© 2016. Kapatagan National High School Special Program in the Arts.</h6>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
+
